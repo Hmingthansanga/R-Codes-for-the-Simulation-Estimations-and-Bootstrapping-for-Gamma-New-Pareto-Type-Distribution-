@@ -1,2 +1,31 @@
-# R-Codes-for-the-Simulation-Estimations-and-Bootstrapping-for-Gamma-New-Pareto-Type-Distribution-
-R Codes for Simulation, Estimations and Bootstrapping for the Gamma New Pareto-Type Distribution from the manuscript titled "A Gamma Generated New Pareto-type Distribution: A Comprehensive Mathematical Framework With Inferential Issues, Simulations and Implementation"
+# R Codes for GNPT Distribution Study
+
+This repository contains the R scripts used in the simulation studies on the **Gamma New Pareto-Type(GNPT)** distribution.
+
+## 📂 Contents
+
+- `Simulation_GNPT.R` — Code for simulating random samples from the GNPT distribution  
+- `Estimation_GNPT_fixed_boundary.R` — Parameter estimation using DEoptim with fixed \( \hat{b} = x_{(1)} \)  
+- `Estimation_GNPT_restricted_boundary.R` — Parameter estimation using DEoptim with \( \hat{b} \in (0, x_{(1)}) \)  
+- `Bootstrap_sampling.R` — Code for generating bootstrap samples
+
+## ⚙️ Requirements
+
+R Software
+R Core Team (2025). _R: A Language and Environment for Statistical
+  Computing_. R Foundation for Statistical Computing, Vienna, Austria.
+  <https://www.R-project.org/>.
+
+
+The following R packages are required:
+install.packages("DEoptim")
+
+Katharine Mullen, David Ardia, David Gil, Donald Windover, James
+  Cline (2011). 'DEoptim': An R Package for Global Optimization by
+  Differential Evolution. Journal of Statistical Software, 40(6), 1-26.
+  doi:10.18637/jss.v040.i06.
+
+  Ardia, D., Boudt, K., Carl, P., Mullen, K.M., Peterson, B.G. (2010).
+  Differential Evolution with 'DEoptim': An Application to Non-Convex
+  Portfolio Optimization. R Journal, 3(1), 27-34.
+  doi:10.32614/RJ-2011-005
