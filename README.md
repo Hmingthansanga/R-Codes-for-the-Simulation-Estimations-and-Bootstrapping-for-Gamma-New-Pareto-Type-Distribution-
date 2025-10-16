@@ -5,13 +5,12 @@ This repository contains the R scripts used in the simulation studies on the **G
 ## 📂 Contents
 
 - `Simulation_GNPT.R` — Code for simulating random samples from the GNPT distribution  
-- `Estimation_GNPT_fixed_boundary.R` — Parameter estimation using DEoptim with fixed \( \hat{b} = x_{(1)} \)  
-- `Estimation_GNPT_restricted_boundary.R` — Parameter estimation using DEoptim with \( \hat{b} \in (0, x_{(1)}) \)  
-- `Bootstrap_sampling.R` — Code for generating bootstrap samples
+- `Estimation_GNPT_fixed_boundary.R` — Parameter estimation using DEoptim with fixed boundary parameter
+- `Estimation_GNPT_restricted_boundary.R` — Parameter estimation using DEoptim with restricted boundary parameter
 
 ## ⚙️ Requirements
 
-R Software
+R Software: 
 R Core Team (2025). _R: A Language and Environment for Statistical
   Computing_. R Foundation for Statistical Computing, Vienna, Austria.
   <https://www.R-project.org/>.
